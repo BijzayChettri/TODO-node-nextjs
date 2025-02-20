@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import context from "react-bootstrap/esm/AccordionContext";
 
 export default function UserList() {
   const [users, setUsers] = useState([]);
